@@ -108,17 +108,7 @@ app.layout = dbc.Container([
         )
     ]),
 
-    # Strategic Recommendations
-    html.Div([
-        html.H3("Strategic Recommendations", style={'color': 'green'}),
-        html.Ul([
-            html.Li("Invest in top-performing product lines."),
-            html.Li("Develop region-specific strategies for underperforming areas."),
-            html.Li("Address product quality to reduce high return rates."),
-            html.Li("Evaluate discount effectiveness and refine pricing strategies."),
-            html.Li("Make data-driven decisions for ongoing growth.")
-        ])
-    ], style={'backgroundColor': '#e6ffe6', 'padding': '20px', 'borderRadius': '10px'}),
+    
 
     # Overall Summary
     html.Div([
@@ -129,7 +119,7 @@ app.layout = dbc.Container([
             html.Li("Sales performance varies significantly by region, indicating untapped potential."),
             html.Li("High returns on certain products may impact profitability and satisfaction."),
             html.Li("Some products may be over-reliant on discounts, eroding brand value.")
-        ]),
+        ],style={'backgroundColor': '#e6ffe6', 'padding': '20px', 'borderRadius': '10px'}),
         html.H5("Actionable Strategies", style={'color': 'darkgreen'}),
         html.Ul([
             html.Li("Focused Growth: Invest in high-performing product lines and replicate success."),
